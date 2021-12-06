@@ -4,7 +4,7 @@ access_key = "AKIAXACQGQOCBXYYLF7U"
 secret_key = "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"
 }
 
-resource "aws_instance" "trlinux" {
+resource "aws_instance" "ec2" {
 ami = "ami-052cef05d01020f1d"
 instance_type = "t2.micro"
 key_name = "kmac"
